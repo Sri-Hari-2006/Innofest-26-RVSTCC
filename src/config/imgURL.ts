@@ -17,10 +17,10 @@ import img_nt1 from  '../assets/carousel/nonTech/1.png'
 // import img_nt3 from  '../assets/carousel/nonTech/3.png' 
 import img_nt4 from  '../assets/carousel/nonTech/4.png' 
 // import img_nt5 from  '../assets/carousel/nonTech/5.png' 
-import img_nt6 from  '../assets/carousel/nontech/8.png'
-import img_nt9 from  '../assets/carousel/nontech/9.jpg'
-import img_nt10 from  '../assets/carousel/nontech/10.png'
-import img_nt11 from  '../assets/carousel/nontech/tamilodu.png'
+import img_nt6 from  '../assets/carousel/nonTech/8.png'
+import img_nt9 from  '../assets/carousel/nonTech/9.jpg'
+import img_nt10 from  '../assets/carousel/nonTech/10.png'
+import img_nt11 from  '../assets/carousel/nonTech/tamilodu.png'
 // import { img } from 'framer-motion/client';
 
 
