@@ -42,8 +42,8 @@ export type Event = {
   image: string
   formURL: string
 }
-const techRegURL:string= "#";
-const nonTechRegURL:string= "#";
+export const techRegURL:string= "https://forms.gle/RUafiEYC7jfcC2m28";
+export const nonTechRegURL:string= "https://forms.gle/Q2cVCp6mFkR8wb9Y6";
 
 export const event: Event[] = [
   

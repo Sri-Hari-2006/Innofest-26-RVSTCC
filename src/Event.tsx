@@ -4,7 +4,7 @@ import { ChevronDown, ChevronUp, Phone, Mail, Instagram, MessageCircle } from 'l
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { event, Event } from './config/events'
+import { event, Event, techRegURL, nonTechRegURL } from './config/events'
 
 
 const ThemeContext = createContext<{theme: string; toggleTheme: () => void}>({
@@ -123,9 +123,15 @@ function EventCard({ event }: { event: Event }) {
             ))}
           </ul>
         )}
-        <a className="mt-4 w-full" href={event.formURL}>
-        <Button className="mt-4 w-full" onClick={() => window.location.href = "URl"}>Register ₹200/-</Button>
-        </a>
+        <Button
+          className="mt-4 w-full"
+          onClick={() => {
+            const url = event.type === 'technical' ? techRegURL : nonTechRegURL;
+            window.location.href = url;
+          }}
+        >
+          Register ₹200/-
+        </Button>
         
       </CardFooter>
     </Card>

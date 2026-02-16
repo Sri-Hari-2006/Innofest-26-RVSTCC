@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { NavLink } from 'react-router-dom'
-import innoFest26 from './assets/innofest26.png'
+import innoFest26 from './assets/export_1.png'
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   
