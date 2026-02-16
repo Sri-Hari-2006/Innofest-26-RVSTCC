@@ -88,9 +88,9 @@ export default function HomePage() {
               <CarouselPrevious />
               <CarouselNext />
             <a className="mt-4 w-8/12" href={techRegURL}>
-            <Link to={'events'}>
-            <Button className="mt-4 w-full" onClick={() => window.location.href = "events"} >Register ₹200/-</Button>
-            </Link>
+            
+            <Button className="mt-4 w-full" onClick={() => window.location.href = " https://forms.gle/RUafiEYC7jfcC2m28"} >Register ₹200/-</Button>
+            
             </a>
             
             </Carousel>
@@ -130,7 +130,7 @@ export default function HomePage() {
               <CarouselNext />
             <a className="mt-4 w-8/12" href={nonTechRegURL}>
             
-            <Button onClick={() => window.location.href = "events"} className="mt-4 w-full" >Register ₹200/-</Button>
+            <Button onClick={() => window.location.href = " https://forms.gle/Q2cVCp6mFkR8wb9Y6"} className="mt-4 w-full" >Register ₹200/-</Button>
            
             </a>
             </Carousel>
@@ -148,17 +148,17 @@ export default function HomePage() {
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
               <div className="flex flex-col items-center space-y-4 text-center">
-                <CalendarDays className="h-12 w-12 text-teal-500 dark:text-teal-400" />
+                <CalendarDays className="h-12 w-12 text-purple-500 dark:text-teal-400" />
                 <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">Date & Time</h3>
                 <p className="text-gray-500 dark:text-gray-400">12 & 13 March 2026<br />9:00 AM - 6:00 PM</p>
               </div>
               <div className="flex flex-col items-center space-y-4 text-center">
-                <Users className="h-12 w-12 text-teal-500 dark:text-teal-400" />
+                <Users className="h-12 w-12 text-purple-500 dark:text-teal-400" />
                 <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">Attendees</h3>
                 <p className="text-gray-500 dark:text-gray-400">500+ tech enthusiasts<br />10+ speakers</p>
               </div>
               <div className="flex flex-col items-center space-y-4 text-center">
-                <MapPin className="h-12 w-12 text-teal-500 dark:text-teal-400" />
+                <MapPin className="h-12 w-12 text-purple-500 dark:text-teal-400" />
                 <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">Location</h3>
                 <p className="text-gray-500 dark:text-gray-400">RVS TECHNICAL CAMPUS - COIMBATORE<br />Kumaran Kottam Campus, Kannampalayam, Coimbatore - 641402</p>
               </div>
@@ -175,18 +175,18 @@ export default function HomePage() {
         </section>
       </main>
       <CardFooter/>
-      <footer className="flex flex-col gap-2 sm:flex-col py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-gray-200 dark:border-gray-800  ">
+      <footer className="flex flex-col gap-2 sm:flex-col py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-gray-200 dark:border-gray-800 bg-purple-200 ">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-col items-center md:flex-row md:items-start mb-4 md:mb-0">
               <p className="flex md:px-3  font-semibold items-center"><Phone className="mr-2" />
                 <a href="tel:7092351820">+91 7092351820</a>| <a href="tel:9342423914">+91 9342423914</a>
               </p>
-              <a href="mailto:innofest24@gmail.com">
-                <p className="flex md:px-10  font-semibold items-center"><Mail className="mr-2" /> innofest26@gmail.com</p>
+              <a href="mailto:innofest2k26@gmail.com">
+                <p className="flex md:px-10  font-semibold items-center"><Mail className="mr-2" /> innofest2k26@gmail.com</p>
               </a>
             </div>
             <div className="flex space-x-4">
-              <a href="https://www.instagram.com/innofest24/" target="_blank" rel="noopener noreferrer" className="text-primary">
+              <a href="https://www.instagram.com/innofest_rvs?igsh=MXF1ODUyM29ua2Fjaw==" target="_blank" rel="noopener noreferrer" className="text-primary ">
                 <Instagram className="h-6 w-6" />
               </a>
               <a href="https://chat.whatsapp.com/CgG05iPw0pB5cRn7RZBI16" target="_blank" rel="noopener noreferrer" className="text-primary">

@@ -335,7 +335,7 @@ export const event: Event[] = [
   },
     {
     id: 10,
-    name: "Code Xplore",
+    name: "CodeXplore",
     type: "technical",
     description: "A challenging coding competition to test problem-solving skills.",
     rules: [
@@ -361,7 +361,7 @@ export const event: Event[] = [
   },
   {
     id: 12,
-    name: "Technical Quiz",
+    name: "Tech Quiz",
     type: "technical",
     description: "A quiz competition covering a wide range of technical topics.",
     rules: [
@@ -374,7 +374,7 @@ export const event: Event[] = [
   },
    {
     id: 13,
-    name: "Techical charades",
+    name: "Tech Charades",
     type: "technical",
     description: "The most baffling and enigmatic mystery on the Internet.",
     rules: [
