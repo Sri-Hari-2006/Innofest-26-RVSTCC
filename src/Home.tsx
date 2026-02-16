@@ -18,8 +18,8 @@ import { CalendarDays, Instagram, Mail, MapPin, MessageCircle, Phone, Users, } f
 import { nonTechCarousel_URLS, techCarousel_URLS } from "./config/imgURL"
 import RVSBanner from "./components/RVS"
 import MapEmbed from "./map"
-import AlertComponent from "./AlertDialoge"
-import useNagivate from 'react-router-dom'
+// import AlertComponent from "./AlertDialoge"
+// import useNagivate from 'react-router-dom'
 const techRegURL:string= "#";
 const nonTechRegURL:string= "#";
 
