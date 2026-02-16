@@ -28,14 +28,14 @@ export default function HomePage() {
     <div className="flex flex-col overflow-x-hidden min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
       {/* <AlertComponent /> */ }
       <main className="flex-1">
-        <section className="w-full  bg-teal-800 dark:bg-teal-900">
+        <section className="w-full  bg-violet-900 dark:bg-teal-900">
           <div className="p-0">
             <RVSBanner />
           </div>
         </section>
      
 
-        <section className="bg-teal-700 m-10 mt-10 rounded-lg">
+        <section className="bg-purple-700 m-10 mt-10 rounded-lg ">
         <div className=" py-8 container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
@@ -47,7 +47,7 @@ export default function HomePage() {
                 </p>
               </div>
               <Link to={'events'}>
-              <Button className="bg-white text-lg font-bold text-teal-900 hover:bg-teal-700 transform transition duration-300  hover:-translate-y-0.5  hover:text-white/100" size="lg">
+              <Button className="bg-white text-lg font-bold text-purple-700 hover:bg-purple-700 transform transition duration-300  hover:-translate-y-0.5  hover:text-white/100" size="lg">
                 Explore Events
               </Button>
               </Link>
@@ -88,9 +88,9 @@ export default function HomePage() {
               <CarouselPrevious />
               <CarouselNext />
             <a className="mt-4 w-8/12" href={techRegURL}>
-            {/* <Link to={'events'}>
-            <Button className="mt-4 w-full" onClick={() => window.location.href = "events"} >Explore Now</Button>
-            </Link> */}
+            <Link to={'events'}>
+            <Button className="mt-4 w-full" onClick={() => window.location.href = "events"} >Register ₹200/-</Button>
+            </Link>
             </a>
             
             </Carousel>
@@ -130,7 +130,7 @@ export default function HomePage() {
               <CarouselNext />
             <a className="mt-4 w-8/12" href={nonTechRegURL}>
             
-            <Button onClick={() => window.location.href = "events"} className="mt-4 w-full" >Explore Now</Button>
+            <Button onClick={() => window.location.href = "events"} className="mt-4 w-full" >Register ₹200/-</Button>
            
             </a>
             </Carousel>

@@ -124,7 +124,7 @@ function EventCard({ event }: { event: Event }) {
           </ul>
         )}
         <a className="mt-4 w-full" href={event.formURL}>
-        <Button className="mt-4 w-full" onClick={() => window.location.href = "URl"}>Register</Button>
+        <Button className="mt-4 w-full" onClick={() => window.location.href = "URl"}>Register ₹200/-</Button>
         </a>
         
       </CardFooter>
