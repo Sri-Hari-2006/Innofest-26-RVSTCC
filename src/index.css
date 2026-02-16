@@ -58,6 +58,7 @@
   body {
     @apply bg-background text-foreground;
     scroll-behavior: smooth;
+   
   }
 }
 
@@ -100,7 +101,7 @@
 
 @media (max-width: 1024px){
   .innologo{
-    margin-left: 75px;
+    margin-left: 50px;
   }
   }
 

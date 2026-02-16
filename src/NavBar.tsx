@@ -61,12 +61,12 @@ export default function Navbar() {
 
       {/* Mobile menu, show/hide based on menu state */}
       <div className={`lg:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 ">
           {navItems.map((item) => (
             <NavLink
               key={item.name}
               to={item.href}
-              className={`block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-200 hover:text-teal-400`}
+              className={`block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:bg-gray-200 hover:text-purple-700`}
               onClick={() => setIsMenuOpen(false)}
             >
               {item.name}
