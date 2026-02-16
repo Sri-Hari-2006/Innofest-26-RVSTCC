@@ -23,7 +23,7 @@ const  RVSBanner: React.FC = () => {
 
     </div>
 
-        <p className="text-xs md:text-base mt-2 px-0.5 py-0.5">
+        <p className="text-xs md:text-base mt-2 px-0.5 py-0.5 pl-20">
             Approved by AICTE, New Delhi and Affiliated to Anna University, Chennai.
             <br />
             Recognized by UGC, Accredited by NAAC with 'A' Grade

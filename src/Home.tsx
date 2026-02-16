@@ -19,21 +19,23 @@ import { nonTechCarousel_URLS, techCarousel_URLS } from "./config/imgURL"
 import RVSBanner from "./components/RVS"
 import MapEmbed from "./map"
 import AlertComponent from "./AlertDialoge"
-// import useNagivate from 'react-router-dom'
+import useNagivate from 'react-router-dom'
 const techRegURL:string= "#";
 const nonTechRegURL:string= "#";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col overflow-x-hidden min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
-      <AlertComponent />
+      {/* <AlertComponent /> */ }
       <main className="flex-1">
         <section className="w-full  bg-teal-800 dark:bg-teal-900">
           <div className="p-0">
             <RVSBanner />
           </div>
         </section>
-        <section className="bg-teal-700 m-0 mt-10 rounded-lg">
+     
+
+        <section className="bg-teal-700 m-10 mt-10 rounded-lg">
         <div className=" py-8 container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
@@ -52,6 +54,7 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+           
         <section className="w-full py-12 md:py-24 lg:py-20 bg-gray-100 dark:bg-gray-800 ">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-8 text-gray-900 dark:text-gray-100">Technical Event Highlights</h2>
@@ -85,8 +88,11 @@ export default function HomePage() {
               <CarouselPrevious />
               <CarouselNext />
             <a className="mt-4 w-8/12" href={techRegURL}>
+            {/* <Link to={'events'}>
             <Button className="mt-4 w-full" onClick={() => window.location.href = "events"} >Explore Now</Button>
+            </Link> */}
             </a>
+            
             </Carousel>
           </div>
         </section>
@@ -123,7 +129,9 @@ export default function HomePage() {
               <CarouselPrevious />
               <CarouselNext />
             <a className="mt-4 w-8/12" href={nonTechRegURL}>
-            <Button className="mt-4 w-full" >Explore Now</Button>
+            
+            <Button onClick={() => window.location.href = "events"} className="mt-4 w-full" >Explore Now</Button>
+           
             </a>
             </Carousel>
           </div>
@@ -167,7 +175,7 @@ export default function HomePage() {
         </section>
       </main>
       <CardFooter/>
-      <footer className="flex flex-col gap-2 sm:flex-col py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-gray-200 dark:border-gray-800">
+      <footer className="flex flex-col gap-2 sm:flex-col py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-gray-200 dark:border-gray-800  ">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-col items-center md:flex-row md:items-start mb-4 md:mb-0">
               <p className="flex md:px-3  font-semibold items-center"><Phone className="mr-2" />

@@ -62,7 +62,9 @@
 }
 
 .innologo{
-  height: 220px;
+  width: 200px;
+  height: auto;
+  
   
 }
 
@@ -70,9 +72,37 @@
   transform: translateY(-5);
 
 }
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.marquee-track {
+  display: inline-block;
+  animation: scroll 8s linear infinite;
+}
+
+.marquee-track span {
+  padding-right: 5px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 @media (max-width: 1024px){
   .innologo{
-    margin-left: 30px;
+    margin-left: 75px;
   }
   }
+
+
   
