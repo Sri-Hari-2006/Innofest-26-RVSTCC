@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { NavLink } from 'react-router-dom'
-import innoFest26 from './assets/export_1.png'
+import innoFest26 from './assets/fest26-removebg-preview.png'
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   
@@ -23,7 +23,7 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className={`sticky top-0 z-50 bg-black/20 backdrop-blur-md`}>
+    <nav className={`sticky top-0 z-50 bg-white/50 backdrop-blur-md`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -38,7 +38,7 @@ export default function Navbar() {
                   <NavLink
                     key={item.name}
                     to={item.href}
-                    className={`px-3 py-2 rounded-md text-sm font-medium text-white/80  hover:bg-gray-200 hover:text-purple-600`}
+                    className={`px-3 py-2 rounded-md text-sm font-medium text-black/80  hover:bg-gray-200 hover:text-purple-600`}
                   >
                     {item.name}
                   </NavLink>

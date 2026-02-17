@@ -56,7 +56,7 @@ export default function EventPage() {
           <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-col items-center md:items-start mb-4 md:mb-0">
               <p className="flex  font-semibold items-center"><Phone className="mr-2" />+91 7092351820 | +91 9342423914</p>
-              <a href="mailto:innofest24@gmail.com">
+              <a href="mailto:innofest2k26@gmail.com">
                 <p className="flex md:px-10  font-semibold items-center"><Mail className="mr-2" /> innofest26@gmail.com</p>
               </a>
             </div>
