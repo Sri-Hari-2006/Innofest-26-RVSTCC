@@ -49,7 +49,7 @@ export default function Navbar() {
           <div className="flex-1 flex justify-center px-2 lg:ml-6 lg:justify-center">
             <div className="max-w-lg w-full lg:max-w-xs">
               <div className="text-center ">
-                 <img src={innoFest26} className='innologo' alt='InnoFest'></img>
+                 <img src={innoFest26} className='innologo' onClick={() => window.location.href = "/"} alt='InnoFest'></img>
               </div>
             </div>
           </div>
