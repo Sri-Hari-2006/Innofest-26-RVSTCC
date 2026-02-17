@@ -66,7 +66,7 @@ export default function Navbar() {
             <NavLink
               key={item.name}
               to={item.href}
-              className={`block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:bg-gray-200 hover:text-purple-700`}
+              className={`block px-3 py-2 rounded-md text-base font-medium text-black/80 hover:bg-gray-200 hover:text-purple-700`}
               onClick={() => setIsMenuOpen(false)}
             >
               {item.name}
