@@ -326,8 +326,10 @@ export const event: Event[] = [
     type: "technical",
     description: "A competition where participants are tasked with finding and fixing bugs in code.",
     rules: [
-      "Individual participation.",
-      "Time limit of 1.5 hours.",
+      "Individual Participation.",
+      "Two Rounds Only – Round 1 (Quiz) and Round 2 (Final Debugging).",
+      "Round 1 – Quiz – Used for shortlisting participants for the final round.",
+      "Round 2 – Debugging Round – Fix errors in the given code.",
       "Languages: C, C++, Java, or Python."
     ],
     image: debugging_img,
@@ -339,9 +341,10 @@ export const event: Event[] = [
     type: "technical",
     description: "A challenging coding competition to test problem-solving skills.",
     rules: [
-      "Individual participation.",
-      "Time limit of 3 hours.",
-      "Languages: C, C++, Java, or Python."
+      "Team Size: 3–4 members per team.",
+      "Time Limit: 45 minutes.",
+      "Role Split: One member types the code; others gather and provide logic.",
+      "Slogan: “Grab the Code from the Scrap!”"
     ],
     image: codingContest_img,
     formURL: techRegURL
@@ -378,10 +381,10 @@ export const event: Event[] = [
     type: "technical",
     description: "The most baffling and enigmatic mystery on the Internet.",
     rules: [
-      "Maximum 3 members for a team",
-      "Laptop is mandatory for each team",
-      "Time limit of 1 Hour",
-      "Only 3 clues will be provided"
+      "No Speaking in Charades Round – Act only; team must guess within the time limit.",
+      "Time Limit Strictly Followed – 60 sec (Round 1 & 2), 90 sec (Round 3).",
+      "Clear Explanation Required – Mention who, contribution, and impact in Round 2.",
+      "Judging Based on Accuracy & Creativity – Matching character, innovation, and delivery matter."
     ],
     image: charades_img,
     formURL: techRegURL
@@ -392,9 +395,9 @@ export const event: Event[] = [
     type: "technical",
     description: "The most baffling and enigmatic mystery on the Internet.",
     rules: [
-      "Maximum 3 members for a team",
-      "Laptop is mandatory for each team",
-      "Time limit of 1 Hour",
+      "3 Rounds – Basic, Intermediate, Final (difficulty increases).",
+      "Selection Based on Accuracy & Time.",
+      "Bring Your Own Laptop.",
       "Only 3 clues will be provided"
     ],
     image: mind_img,
@@ -406,10 +409,9 @@ export const event: Event[] = [
     type: "technical",
     description: "The most baffling and enigmatic mystery on the Internet.",
     rules: [
-      "Maximum 3 members for a team",
-      "Laptop is mandatory for each team",
-      "Time limit of 1 Hour",
-      "Only 3 clues will be provided"
+      "1–3 Original Prompts per Person – No copy-paste.",
+      "Clear, Creative & Positive Content Only – No harmful content.",
+      "Submission Must Include: Prompt + Output + Short “Why it’s Great” note."
     ],
     image: prompt_img,
     formURL: techRegURL
@@ -420,10 +422,10 @@ export const event: Event[] = [
     type: "technical",
     description: "The most baffling and enigmatic mystery on the Internet.",
     rules: [
-      "Maximum 3 members for a team",
-      "Laptop is mandatory for each team",
-      "Time limit of 1 Hour",
-      "Only 3 clues will be provided"
+      "Team Size: 2–5 members per team.",
+      "Unique, theme-aligned & plagiarism-free idea.",
+      "Feasible, innovative & impactful solution.",
+      "Clear presentation (PPT/prototype/demo) completed within time limit."
     ],
     image: ideathon_img,
     formURL: techRegURL

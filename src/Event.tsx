@@ -64,7 +64,7 @@ export default function EventPage() {
               <a href="https://www.instagram.com/cyberockz_?igsh=eTZtY3drdzk1ZWc3" target="_blank" rel="noopener noreferrer" className="text-primary">
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="https://chat.whatsapp.com/CgG05iPw0pB5cRn7RZBI16" target="_blank" rel="noopener noreferrer" className="text-primary">
+              <a href="https://chat.whatsapp.com/CMN2DjJlj4rAxvx01uJjlD" target="_blank" rel="noopener noreferrer" className="text-primary">
                 <MessageCircle className="h-6 w-6" />
               </a>
             </div>
