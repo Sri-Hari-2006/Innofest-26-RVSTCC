@@ -275,9 +275,10 @@ export const event: Event[] = [
     type: "non-technical",
     description: "none",
     rules: [
-      "This is a Tournament Game for Free Fire & PUBG",
-      "Only college students allowed",                               
-      "Every Custom Lobby will be host by the tournament Officials"
+      "Teams of max 4 members.",
+      "Time limit will be strictly followed.",
+      "All players must be auctioned within the time limit.",
+      "The team with the highest total player value wins.",
     ],
     image: ipl_img,
     formURL: nonTechRegURL
@@ -314,10 +315,11 @@ export const event: Event[] = [
     type: "non-technical",
     description: "A challenge to identify connections between various technical concepts.",
     rules: [
-      "Individual or team participation (maximum 3).",
-      "Atleast one Laptop for a team.",
-      "Three rounds will be conducted",
-      "No external help allowed."
+      "Maximum 3 members allowed per team and must answer within 30-45 seconds.",
+      "This is a Cinema Connection Game - find the common link between given songs, movies, scenes, actors or actresses.",
+      "Discussion is allowed only within the team; no external help is allowed.",
+      "Judge's decision is final and binding for all teams."
+
     ],
     image: connection_img,
     formURL: nonTechRegURL
@@ -363,7 +365,9 @@ export const event: Event[] = [
     rules: [
       "Maximum 3 members for a team",
       "Laptop is mandatory for each team",
-      "Time limit of 1 Hour"
+      "Time limit of 1 Hour",
+      "Originality is key – no plagiarism allowed.",
+      "Theme will be provided on the spot."
     ],
     image: poster_img,
     formURL: nonTechRegURL
