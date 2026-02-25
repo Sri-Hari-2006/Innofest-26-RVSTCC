@@ -259,7 +259,7 @@ export const event: Event[] = [
     id: 4,
     name: "Tamilodu Vilayadu",
     type: "non-technical",
-    description: "none",
+    description: "A fun and engaging event where participants solve puzzles in Tamil.",
     rules: [
       "teams of max 3 members.",
       "mobiles are restricted during this event.",
@@ -273,7 +273,7 @@ export const event: Event[] = [
     id: 5,
     name: "IPL Auction",
     type: "non-technical",
-    description: "none",
+    description: "An exciting auction event where participants bid on virtual IPL players.",
     rules: [
       "Teams of max 4 members.",
       "Time limit will be strictly followed.",
@@ -300,7 +300,7 @@ export const event: Event[] = [
     id: 7,
     name: "Meme Creation",
     type: "non-technical",
-    description: "none",
+    description: "A fun and creative competition to design memes on technical themes.",
     rules: [
       "This is a Tournament Game for Free Fire & PUBG",
       "Only college students allowed",                               
@@ -313,7 +313,7 @@ export const event: Event[] = [
     id: 8,
     name: "Connection",
     type: "non-technical",
-    description: "A challenge to identify connections between various technical concepts.",
+    description: "A fun and engaging event where participants find connections between various technical and non-technical elements.",
     rules: [
       "Maximum 3 members allowed per team and must answer within 30-45 seconds.",
       "This is a Cinema Connection Game - find the common link between given songs, movies, scenes, actors or actresses.",
@@ -346,7 +346,7 @@ export const event: Event[] = [
     id: 10,
     name: "CodeXplore",
     type: "technical",
-    description: "A challenging coding competition to test problem-solving skills.",
+    description: "A thrilling coding competition where participants solve challenging problems and explore the world of programming.",
     rules: [
       "Team Size: 2 members per team.",
       "Time Limit: 45 minutes.",
@@ -390,7 +390,7 @@ export const event: Event[] = [
     id: 13,
     name: "Tech Charades",
     type: "technical",
-    description: "The most baffling and enigmatic mystery on the Internet.",
+    description: "A fun and interactive event where participants act out technical terms or concepts without speaking.",
     rules: [
       "max 2 members per team.",
       "Time Limit Strictly Followed – 60 sec (Round 1 & 2), 90 sec (Round 3).",
@@ -405,7 +405,7 @@ export const event: Event[] = [
     id: 14,
     name: "Mind 2 Code",
     type: "technical",
-    description: "The most baffling and enigmatic mystery on the Internet.",
+    description: "A unique event where participants translate their mental ideas into working code.",
     rules: [
       "maximum 3 members per team.",
       "3 Rounds – Basic, Intermediate, Final (difficulty increases).",
@@ -419,7 +419,7 @@ export const event: Event[] = [
     id: 15,
     name: "Prompt Creation",
     type: "technical",
-    description: "The most baffling and enigmatic mystery on the Internet.",
+    description: "A creative event where participants design effective prompts for AI models to generate desired outputs.",
     rules: [
       "team of 3 members.",
       "1–3 Original Prompts per Person – No copy-paste.",
@@ -434,7 +434,7 @@ export const event: Event[] = [
     id: 16,
     name: "Ideathon",
     type: "technical",
-    description: "The most baffling and enigmatic mystery on the Internet.",
+    description: "A collaborative event where teams brainstorm and present innovative solutions to real-world problems.",
     rules: [
       "Team Size: 2–5 members per team (varies by event).",
       "Original Idea: The idea must be unique and not copied.",
