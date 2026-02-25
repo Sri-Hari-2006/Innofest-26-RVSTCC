@@ -214,9 +214,10 @@ export const event: Event[] = [
     type: "non-technical",
     description: "Show off your dance moves in this vibrant competition with solo, duo, and group categories.",
     rules: [
-      "Time limit of 5 minutes per performance.",
+      "Songs that criticies teachers or political parties  and awkward songs are strictly not allowed. ",
       "Participants must bring their own music.",
-      "Costumes and props are allowed."
+      "Track must be submitted on event day morningg(13.03.2026).",
+      "Solo or group performances are allowed."
     ],
     image: dance_img,
     formURL: nonTechRegURL
@@ -227,11 +228,11 @@ export const event: Event[] = [
     type: "non-technical",
     description: "A soulful competition where participants can showcase their vocal talents.",
     rules: [
-      "Solo or band performances are allowed.",
-      "Maximum time limit of 5 minutes.",
+      "Solo or group performances are allowed.",
+      "Songs that criticies teachers or political parties  and awkward songs are strictly not allowed. ",
       "Musical Instruments can be used.",
       "Karoake allowed for solo performance.",
-      "No background music for group/Band performances.",
+      "Track must be submitted on event day morningg(13.03.2026)."
 
     ],
     image: singing_img,
@@ -247,7 +248,9 @@ export const event: Event[] = [
     rules: [
       "This is a Tournament Game for Free Fire & PUBG",
       "Only college students allowed",
-      "Every Custom Lobby will be host by the tournament Officials"
+      "Using hack and suspicious activities is strictly prohibited",
+      "Every Custom Lobby will be host by the tournament Officials",
+      "event coordinators decision will be final and binding for all the teams."
     ],
     image: Egames_img,
     formURL: nonTechRegURL
@@ -258,9 +261,10 @@ export const event: Event[] = [
     type: "non-technical",
     description: "none",
     rules: [
-      "This is a Tournament Game for Free Fire & PUBG",
-      "Only college students allowed",                               
-      "Every Custom Lobby will be host by the tournament Officials"
+      "teams of max 3 members.",
+      "mobiles are restricted during this event.",
+      "time limits are strictly followed.",                               
+      "No shouting or any kind of misbehaviour is allowed during the event.",
     ],
     image: tamilodu_img,
     formURL: nonTechRegURL
@@ -330,7 +334,8 @@ export const event: Event[] = [
       "Two Rounds Only – Round 1 (Quiz) and Round 2 (Final Debugging).",
       "Round 1 – Quiz – Used for shortlisting participants for the final round.",
       "Round 2 – Debugging Round – Fix errors in the given code.",
-      "Languages: C, C++, Java, or Python."
+      "Languages: C, C++, Java, or Python.",
+      "laptop is mandatory for each participant."
     ],
     image: debugging_img,
     formURL: techRegURL
@@ -341,10 +346,11 @@ export const event: Event[] = [
     type: "technical",
     description: "A challenging coding competition to test problem-solving skills.",
     rules: [
-      "Team Size: 3–4 members per team.",
+      "Team Size: 2 members per team.",
       "Time Limit: 45 minutes.",
       "Role Split: One member types the code; others gather and provide logic.",
-      "Slogan: “Grab the Code from the Scrap!”"
+      "Slogan: “Grab the Code from the Scrap!”",
+      "atleast 1 laptop is mandatory for each team."
     ],
     image: codingContest_img,
     formURL: techRegURL
@@ -369,8 +375,9 @@ export const event: Event[] = [
     description: "A quiz competition covering a wide range of technical topics.",
     rules: [
       "Teams of 2-3 members.",
-      "No electronic devices allowed.",
-      "Time limit of 1 hour."
+      "mobiles are restricted during this event.",
+      "Quiz master's decision is final.",
+      "atleast 1 laptop is mandatory for each team."
     ],
     image: quiz_img,
     formURL: techRegURL
@@ -381,10 +388,11 @@ export const event: Event[] = [
     type: "technical",
     description: "The most baffling and enigmatic mystery on the Internet.",
     rules: [
-      "No Speaking in Charades Round – Act only; team must guess within the time limit.",
+      "max 2 members per team.",
       "Time Limit Strictly Followed – 60 sec (Round 1 & 2), 90 sec (Round 3).",
       "Clear Explanation Required – Mention who, contribution, and impact in Round 2.",
-      "Judging Based on Accuracy & Creativity – Matching character, innovation, and delivery matter."
+      "Judging Based on Accuracy & Creativity – Matching character, innovation, and delivery matter.",
+      "atleast 1 laptop is mandatory for each team."
     ],
     image: charades_img,
     formURL: techRegURL
@@ -395,10 +403,10 @@ export const event: Event[] = [
     type: "technical",
     description: "The most baffling and enigmatic mystery on the Internet.",
     rules: [
+      "maximum 3 members per team.",
       "3 Rounds – Basic, Intermediate, Final (difficulty increases).",
       "Selection Based on Accuracy & Time.",
-      "Bring Your Own Laptop.",
-      "Only 3 clues will be provided"
+      "Bring Your Own Laptop."
     ],
     image: mind_img,
     formURL: techRegURL
@@ -409,9 +417,11 @@ export const event: Event[] = [
     type: "technical",
     description: "The most baffling and enigmatic mystery on the Internet.",
     rules: [
+      "team of 3 members.",
       "1–3 Original Prompts per Person – No copy-paste.",
       "Clear, Creative & Positive Content Only – No harmful content.",
-      "Submission Must Include: Prompt + Output + Short “Why it’s Great” note."
+      "Submission Must Include: Prompt + Output + Short “Why it’s Great” note.",
+      "atleast 1 laptop is mandatory for each team."
     ],
     image: prompt_img,
     formURL: techRegURL
@@ -422,10 +432,10 @@ export const event: Event[] = [
     type: "technical",
     description: "The most baffling and enigmatic mystery on the Internet.",
     rules: [
-      "Team Size: 2–5 members per team.",
-      "Unique, theme-aligned & plagiarism-free idea.",
-      "Feasible, innovative & impactful solution.",
-      "Clear presentation (PPT/prototype/demo) completed within time limit."
+      "Team Size: 2–5 members per team (varies by event).",
+      "Original Idea: The idea must be unique and not copied.",
+      "Follow Theme: Your idea should match the given theme/problem statement.",
+      "Clear presentation (PPT/prototype/demo) completed within time limit.",
     ],
     image: ideathon_img,
     formURL: techRegURL

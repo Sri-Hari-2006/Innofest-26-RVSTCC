@@ -57,7 +57,7 @@ export default function EventPage() {
             <div className="flex flex-col items-center md:items-start mb-4 md:mb-0">
               <p className="flex  font-semibold items-center"><Phone className="mr-2" />+91 7092351820 | +91 9342423914</p>
               <a href="mailto:innofest2k26@gmail.com">
-                <p className="flex md:px-10  font-semibold items-center"><Mail className="mr-2" /> innofest26@gmail.com</p>
+                <p className="flex md:px-10  font-semibold items-center"><Mail className="mr-2" /> innofest2k26@gmail.com</p>
               </a>
             </div>
             <div className="flex space-x-4">
@@ -117,7 +117,7 @@ function EventCard({ event }: { event: Event }) {
           )}
         </Button>
         {showRules && (
-          <ul className="list-disc list-inside mt-2 text-sm">
+          <ul className="list-disc list-outside mt-2 text-sm pl-5">
             {event.rules.map((rule, index) => (
               <li key={index}>{rule}</li>
             ))}
