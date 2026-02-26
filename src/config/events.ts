@@ -214,10 +214,11 @@ export const event: Event[] = [
     type: "non-technical",
     description: "Show off your dance moves in this vibrant competition with solo, duo, and group categories.",
     rules: [
-      "Songs that criticies teachers or political parties  and awkward songs are strictly not allowed. ",
-      "Participants must bring their own music.",
-      "Track must be submitted on event day morningg(13.03.2026).",
-      "Solo or group performances are allowed."
+      "Solo or group performances are allowed.",
+      "Songs duration must be between 3.5-5 minutes.",
+      "Songs that are criticise teachers or political parties are not allowed. ",
+      "Track must be submitted on event day morning ( 13/03/2026).",
+      "Must send the song track to the coordinators, They will check and confirm."
     ],
     image: dance_img,
     formURL: nonTechRegURL
@@ -229,10 +230,10 @@ export const event: Event[] = [
     description: "A soulful competition where participants can showcase their vocal talents.",
     rules: [
       "Solo or group performances are allowed.",
-      "Songs that criticies teachers or political parties  and awkward songs are strictly not allowed. ",
-      "Musical Instruments can be used.",
-      "Karoake allowed for solo performance.",
-      "Track must be submitted on event day morningg(13.03.2026)."
+      "Songs duration must be between 3.5-5 minutes.",
+      "Songs that are criticise teachers or political parties are not allowed. ",
+      "Karoake allowed for solo performance & Musical Instruments can be used.",
+      "Must send the song track to the coordinators, They will check and confirm."
 
     ],
     image: singing_img,
@@ -261,7 +262,7 @@ export const event: Event[] = [
     type: "non-technical",
     description: "A fun and engaging event where participants solve puzzles in Tamil.",
     rules: [
-      "teams of max 3 members.",
+      "teams of max 2 members.",
       "mobiles are restricted during this event.",
       "time limits are strictly followed.",                               
       "No shouting or any kind of misbehaviour is allowed during the event.",
@@ -290,9 +291,13 @@ export const event: Event[] = [
     type: "non-technical",
     description: "A puzzle-solving event to find hidden technical clues and treasures.",
     rules: [
-      "Teams of 4-6 members.",
-      "Time limit of 2 hours.",
-      "All clues must be found to win."
+      "Maximum 2 members allowed per team.",
+      "The total time limit for the event is 30 minutes.",
+      "Any form of cheating, plagiarism, or unfair assistance is strictly prohibited.",
+      "Teams must strictly follow the instructions given by the organizers.",
+      "Judges’ decisions are final and binding.",
+      "Organizers reserve the right to modify rules, format, or time limits at any stage of the event.",
+      "Any violation of rules may result in immediate disqualification."
     ],
     image: treasureHunt_img,
     formURL: techRegURL
@@ -350,11 +355,12 @@ export const event: Event[] = [
     type: "technical",
     description: "A thrilling coding competition where participants solve challenging problems and explore the world of programming.",
     rules: [
-      "Team Size: 2-3 members per team.",
-      "Time Limit: 45 minutes.",
-      "Role Split: One member types the code; others gather and provide logic.",
-      "Slogan: “Grab the Code from the Scrap!”",
-      "atleast 1 laptop is mandatory for each team."
+      "Team Size: max 2 members per team.",
+      "The event consists of two rounds.",
+      "Only teams that successfully complete Round 1 will qualify for Round 2.",
+      "Cheating of any form is strictly prohibited.",
+      "Judges’ decisions are final and binding.",
+      "Organizers reserve the right to modify rules if necessary."
     ],
     image: codingContest_img,
     formURL: techRegURL
@@ -382,9 +388,9 @@ export const event: Event[] = [
     description: "A quiz competition covering a wide range of technical topics.",
     rules: [
       "Teams of 2-3 members.",
-      "mobiles are restricted during this event.",
+      "Mobiles are restricted during this event.",
       "Quiz master's decision is final.",
-      "atleast 1 laptop is mandatory for each team."
+      "Laptop is not mandatory for this event."
     ],
     image: quiz_img,
     formURL: techRegURL
