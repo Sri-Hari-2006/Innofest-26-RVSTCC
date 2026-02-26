@@ -276,9 +276,10 @@ export const event: Event[] = [
     description: "An exciting auction event where participants bid on virtual IPL players.",
     rules: [
       "Teams of max 4 members.",
-      "Time limit will be strictly followed.",
-      "All players must be auctioned within the time limit.",
+      "Each team must have 15 players with a proper mix of batsmen, bowlers, wicketkeeper, and all-rounders.",
+      "Teams must also select backup players (1 batsman, 1 bowler, 1 wicketkeeper, 1 all-rounder).",
       "The team with the highest total player value wins.",
+      "Players have specific ratings, and the strongest team is chosen based on these ratings."
     ],
     image: ipl_img,
     formURL: nonTechRegURL
@@ -302,9 +303,10 @@ export const event: Event[] = [
     type: "non-technical",
     description: "A fun and creative competition to design memes on technical themes.",
     rules: [
-      "This is a Tournament Game for Free Fire & PUBG",
-      "Only college students allowed",                               
-      "Every Custom Lobby will be host by the tournament Officials"
+      "Memes must be related to your wish and sport meme creation.",
+      "parcipant must submit 1 or two memes.",                               
+      "No abusive, hateful, political, or adult content.",
+      "Submission must be within 60-90 min time."
     ],
     image: meme_img,
     formURL: nonTechRegURL
@@ -363,11 +365,12 @@ export const event: Event[] = [
     type: "technical",
     description: "Join us for a creative workshop to design your own unique poster!",
     rules: [
-      "Maximum 3 members for a team",
+      "Maximum 2 members for a team",
       "Laptop is mandatory for each team",
-      "Time limit of 1 Hour",
+      "Time limit: 60–90 minutes. No offensive, political, or inappropriate content is allowed",
       "Originality is key – no plagiarism allowed.",
-      "Theme will be provided on the spot."
+      "Digital posters only (designed using tools like Figma, Photoshop, Illustrator.)",
+      "The theme is going to be your wish and poster explanation must."
     ],
     image: poster_img,
     formURL: nonTechRegURL
@@ -392,11 +395,12 @@ export const event: Event[] = [
     type: "technical",
     description: "A fun and interactive event where participants act out technical terms or concepts without speaking.",
     rules: [
-      "max 2 members per team.",
-      "Time Limit Strictly Followed – 60 sec (Round 1 & 2), 90 sec (Round 3).",
-      "Clear Explanation Required – Mention who, contribution, and impact in Round 2.",
-      "Judging Based on Accuracy & Creativity – Matching character, innovation, and delivery matter.",
-      "atleast 1 laptop is mandatory for each team."
+      "Each team must have 3 members.",
+      "Only one member will act at a time.",
+      "The selected member must act it out without speaking.",
+      "Each team will get 1 minutes to guess.",
+      "Correct answer within time = 10 point.",
+      "Laptop Is not Mandatory for this event."
     ],
     image: charades_img,
     formURL: techRegURL
@@ -436,7 +440,7 @@ export const event: Event[] = [
     type: "technical",
     description: "A collaborative event where teams brainstorm and present innovative solutions to real-world problems.",
     rules: [
-      "Team Size: 2–5 members per team (varies by event).",
+      "Team Size: 2–5 members per team.",
       "Original Idea: The idea must be unique and not copied.",
       "Follow Theme: Your idea should match the given theme/problem statement.",
       "Clear presentation (PPT/prototype/demo) completed within time limit.",
