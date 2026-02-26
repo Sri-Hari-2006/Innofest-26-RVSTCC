@@ -350,7 +350,7 @@ export const event: Event[] = [
     type: "technical",
     description: "A thrilling coding competition where participants solve challenging problems and explore the world of programming.",
     rules: [
-      "Team Size: 2 members per team.",
+      "Team Size: 2-3 members per team.",
       "Time Limit: 45 minutes.",
       "Role Split: One member types the code; others gather and provide logic.",
       "Slogan: “Grab the Code from the Scrap!”",
