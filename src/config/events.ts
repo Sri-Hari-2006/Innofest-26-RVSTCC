@@ -375,7 +375,7 @@ export const event: Event[] = [
       "Laptop is mandatory for each team",
       "Time limit: 60–90 minutes. No offensive, political, or inappropriate content is allowed",
       "Originality is key – no plagiarism allowed.",
-      "Digital posters only (designed using tools like Figma, Photoshop, Illustrator.)",
+      "Digital posters only (designed using tools like Figma, Photoshop, Illustrator , Canva.)",
       "The theme is going to be your wish and poster explanation must."
     ],
     image: poster_img,
