@@ -339,12 +339,11 @@ export const event: Event[] = [
     type: "technical",
     description: "A competition where participants are tasked with finding and fixing bugs in code.",
     rules: [
-      "Individual Participation.",
-      "Two Rounds Only – Round 1 (Quiz) and Round 2 (Final Debugging).",
-      "Round 1 – Quiz – Used for shortlisting participants for the final round.",
-      "Round 2 – Debugging Round – Fix errors in the given code.",
-      "Languages: C, C++, Java, or Python.",
-      "laptop is mandatory for each participant."
+      "Team size: Max 2 members per team",
+      "The event consists of three rounds.",
+      "malpractices such as plagiarism, cheating, or seeking external help will lead to immediate disqualification.",
+      "judges’ decisions are final and binding for all teams.",
+      "Languages: C, C++, Java, or Python."
     ],
     image: debugging_img,
     formURL: techRegURL
