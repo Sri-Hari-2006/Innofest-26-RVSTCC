@@ -355,7 +355,7 @@ export const event: Event[] = [
     type: "technical",
     description: "A thrilling coding competition where participants solve challenging problems and explore the world of programming.",
     rules: [
-      "Team Size: max 2 members per team.",
+      "Team Size: max 2-3 members per team.",
       "The event consists of two rounds.",
       "Only teams that successfully complete Round 1 will qualify for Round 2.",
       "Cheating of any form is strictly prohibited.",
@@ -376,7 +376,7 @@ export const event: Event[] = [
       "Time limit: 60–90 minutes. No offensive, political, or inappropriate content is allowed",
       "Originality is key – no plagiarism allowed.",
       "Digital posters only (designed using tools like Figma, Photoshop, Illustrator , Canva.)",
-      "The theme is going to be your wish and poster explanation must."
+      "The theme is going to be released on the sport."
     ],
     image: poster_img,
     formURL: nonTechRegURL
@@ -387,10 +387,10 @@ export const event: Event[] = [
     type: "technical",
     description: "A quiz competition covering a wide range of technical topics.",
     rules: [
-      "Teams of 2-3 members.",
+      "Teams of 2 members.",
       "Mobiles are restricted during this event.",
       "Quiz master's decision is final.",
-      "Laptop is not mandatory for this event."
+      "time limits are strictly followed during the quiz."
     ],
     image: quiz_img,
     formURL: techRegURL
