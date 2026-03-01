@@ -308,7 +308,7 @@ export const event: Event[] = [
     type: "non-technical",
     description: "A fun and creative competition to design memes on technical themes.",
     rules: [
-      "Memes must be related to your wish and sport meme creation.",
+      "Memes must be related to your wish and spot meme creation.",
       "parcipant must submit 1 or two memes.",                               
       "No abusive, hateful, political, or adult content.",
       "Submission must be within 60-90 min time."
@@ -374,8 +374,8 @@ export const event: Event[] = [
       "Laptop is mandatory for each team",
       "Time limit: 60–90 minutes. No offensive, political, or inappropriate content is allowed",
       "Originality is key – no plagiarism allowed.",
-      "Digital posters only (designed using tools like Figma, Photoshop, Illustrator , Canva.)",
-      "The theme is going to be released on the sport."
+      "Digital posters only (designed using tools like Figma, Photoshop, Canva.)",
+      "The theme is going to be released on the spot."
     ],
     image: poster_img,
     formURL: nonTechRegURL
@@ -430,11 +430,11 @@ export const event: Event[] = [
     type: "technical",
     description: "A creative event where participants design effective prompts for AI models to generate desired outputs.",
     rules: [
-      "team of 3 members.",
-      "1–3 Original Prompts per Person – No copy-paste.",
-      "Clear, Creative & Positive Content Only – No harmful content.",
-      "Submission Must Include: Prompt + Output + Short “Why it’s Great” note.",
-      "atleast 1 laptop is mandatory for each team."
+      "team of 2 members.",
+      "Details, challenges, and constraints of both Round 1 and Round 2 will be revealed on the spot during the event.",
+      "Any form of cheating, plagiarism, or unfair assistance is strictly prohibited and may result in immediate disqualification.",
+      "Judges’ decisions are final and binding. ",
+      "Organizers reserve the right to modify rules, format, or time limits at any stage of the event."
     ],
     image: prompt_img,
     formURL: techRegURL
@@ -445,7 +445,7 @@ export const event: Event[] = [
     type: "technical",
     description: "A collaborative event where teams brainstorm and present innovative solutions to real-world problems.",
     rules: [
-      "Team Size: 2–5 members per team.",
+      "Team Size: 2-3 members per team.",
       "Original Idea: The idea must be unique and not copied.",
       "Follow Theme: Your idea should match the given theme/problem statement.",
       "Clear presentation (PPT/prototype/demo) completed within time limit.",
