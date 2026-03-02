@@ -55,7 +55,7 @@ export default function EventPage() {
         <footer className={`${theme === 'dark' ? 'bg-gray-800' : 'bg-gray-200'} py-6 px-4`}>
           <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-col items-center md:items-start mb-4 md:mb-0">
-              <p className="flex  font-semibold items-center"><Phone className="mr-2" />+91 7092351820 | +91 9342423914</p>
+              <p className="flex  font-semibold items-center"><Phone className="mr-2" />+91 7550306514 | +91 9342423914</p>
               <a href="mailto:innofest2k26@gmail.com">
                 <p className="flex md:px-10  font-semibold items-center"><Mail className="mr-2" /> innofest2k26@gmail.com</p>
               </a>
